@@ -18,5 +18,5 @@ sudo dnf -y install yum-utils
 
 Next, add the Docker CE repository using the yum-config-manager tool:
 
-Bash
+```bash
 sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
