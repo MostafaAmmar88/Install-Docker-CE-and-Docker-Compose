@@ -1,2 +1,17 @@
-# Install-Docker-CE-and-Docker-Compose
-While setting up Docker CE on CentOS 8, you might encounter repository metadata errors. This guide also covers troubleshooting steps to resolve these issues by cleaning the repository cache, disabling problematic repositories, and adding a working mirror.
+# Docker CE and Docker Compose Installation Guide for CentOS 8
+
+This guide provides step-by-step instructions to install Docker CE (Community Edition) and Docker Compose on a CentOS 8-based system, initiate the Docker service, and troubleshoot common issues.
+
+## Prerequisites
+
+- CentOS 8-based system
+- User with sudo privileges
+
+## Steps to Install Docker CE and Docker Compose
+
+### 1. Set Up the Docker Repository
+
+First, update the package index and install required packages:
+
+```bash
+sudo dnf -y install yum-utils
